@@ -30,12 +30,6 @@ body{
   overflow-x:hidden;
 }
 
-.container{
-  width:min(var(--max), calc(100% - 5rem));
-  margin: 0 auto;
-  padding: 1.5rem 0 4rem;
-}
-
 /* Arrière-plan “sanctuaire” */
 .bg{ position:fixed; inset:0; z-index:-1; }
 .glow{ position:absolute; border-radius:999px; filter: blur(50px); opacity:.55; }
@@ -341,6 +335,10 @@ body{
   box-shadow: 0 8px 25px rgba(43,26,22,.08);
   padding: .50rem;
   color: #061016;
+}
+
+.explication-intro {
+  margin-bottom: 70px;
 }
 
 .intro-audio {
