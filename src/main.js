@@ -21,7 +21,7 @@
   function setScrollProgress() {
     const doc = document.documentElement;
     const max = doc.scrollHeight - doc.clientHeight;
-    const pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+    const pct = max > 0 ? (doc.scrollTop / max) * 90 : 0;
     if (scrollBar) scrollBar.style.width = `${pct}%`;
   }
 
