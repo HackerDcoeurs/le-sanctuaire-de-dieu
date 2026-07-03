@@ -1,4 +1,4 @@
-# Racine
-# .gitattributes
-# main.js
-./.gitattributes
+# dépendances / buildnode_modules/dist/build/
+# IDE.vscode/.idea/
+# OS.DS_Store
+# logs*.log
